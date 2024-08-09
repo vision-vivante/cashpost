@@ -1,0 +1,75 @@
+@extends('frontend.default.layouts.app')
+
+@section('content')
+<section class="">
+    <div class="container">
+        <div class="my-campaigns-status">
+            <div class="aiz-user-panel p-0">
+            	@include('flash::message')
+                <div class="aiz-titlebar mt-2 mb-4">
+                   <h2 class="font-weight-bold my-campus-title pt-5 border-top">{{ translate('Invitation Campaigns') }}</h2>
+                   @include('frontend.default.user.freelancer.inc.dashboard_sidebar')
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table h6 aiz-table mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th width="10%">{{translate('Sr no.')}}</th>
+                                                <th>{{translate('Image')}}</th>
+                                                <th>{{translate('Campaign title')}}</th>
+                                                <th>{{translate('Brand name')}}</th>
+                                                <th>{{translate('Status')}}</th>
+                                                <th>{{translate('Action')}}</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                       	@forelse($invitation_projects as $key =>  $project)
+											@php
+											$image_id=ProjectCategory($project->project_category_id)->photo;
+											$client_photo = user_profile_pic($project->client_user_id);
+											$brand_name=get_brand_name($project->client_user_id);
+											$status=get_all_projects($project);
+											@endphp
+                                        	<tr>
+	                                        	<td>{{$key + $invitation_projects->firstItem()}}</td>
+	                                            <td>
+	                                                @if($client_photo != null)
+	                                                <img src="{{ custom_asset($client_photo) }}" width="70" height="50" alt="" class="img-fluid radius-10">
+	                                                @else
+	                                                    <img class="img-fluid radius-10" src="{{ my_asset('assets/frontend/default/img/avatar-place.png') }}" width="70" height="50" alt="">
+	                                                @endif
+	                                            </td>
+	                                            <td><a href="{{ route('project.details', $project->slug) }}" class="text-inherit"> {{$project->name}}</a></td>
+	                                            <td>{{$brand_name}}</td>
+	                                            <td>{!! $status !!}</td>
+	                                            <td>Accept
+                                                    <a href="{{ url('chat?receiver='.Auth::user()->id.'&project='.$project->slug) }}" class="btn btn-primary btn-sm">{{ translate('Chat With Client') }}</a>
+                                                </td>
+
+	                                        </tr>
+                                        @empty
+                                        @endforelse
+                                        </tbody>
+                                    </table>
+                                </div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+    </div>
+</section>
+
+@endsection
+@section('script')
+<script type="text/javascript">
+    function sort_projects(el){
+        $('#sort_projects').submit();
+    }
+</script>
+@endsection

@@ -1,0 +1,525 @@
+/* responsive section start */
+
+
+
+@media(max-width:1199px){
+    .sign-up-section .form-side {
+        padding: 0 141px;
+    }
+    .banner {
+        height: auto;
+    }
+    .brand-heading {
+        font-size: 40px !important;
+    }
+    .sign-up-section.step-3 .previous-step, .sign-up-section.step-2 .previous-step{
+        top:-45px;
+    }
+}
+
+
+@media(max-width:991px){
+    h1, .h1{
+        font-size:33px !important;
+    }
+    h2, .h2{
+        font-size:28px !important;
+    }
+    h3, .h3{
+        font-size:17px !important;
+    }
+    h4, .h4{
+        font-size:12px !important;
+    }
+    h5, .h5, p,.form-control{
+        font-size:14px !important;
+    }
+    .form-control::placeholder{
+        font-size: 14px !important;
+    }
+    h6, .h6{
+        font-size:12px !important;
+    }
+    .banner {
+        padding-top: 2rem !important;
+    }
+    .background-img{
+        min-height:auto !important;
+    }
+    .banner .banner-content .know-more{
+        margin-top:16px !important;
+    }
+    .lead {
+        font-size: 14px;
+    }
+    .banner .banner-content .section-subtitle span{
+        font-size: 14px !important;
+    }
+
+    /* brand section start */
+    .banner.banner-cloned .banner-image{
+        padding-left:42px;
+    }
+    
+    .brand-section .trusted-text{
+        font-size:12px;
+    }
+    .brand-section{
+        padding-top:16px !important;
+        padding-bottom:16px !important;
+    }
+    .importance-section{
+        padding-top:70px;
+    }
+    .importance-section.clone-section .influencer-power .importance-content{
+        padding-right: 22px;
+    }
+    .importance-image{
+        margin-top:22px;
+    }
+    .why-section {
+        padding:32px 0 0 0 !important;
+    }
+    .get-started{
+        padding:32px 0 0 0 !important;
+    }
+    .testimonial-card .card-body .card-title{
+        font-size:16px;
+    }
+    .testimonial-section .design-2{
+        width:20%;
+    }
+    .testimonial-section .design-1{
+        width:27%;
+        left: -28px;
+    }
+    .aiz-footer{
+        padding-top:30px;
+    }
+    .aiz-footer .aiz-footer-widget .aiz-front-widget{
+        margin-bottom:16px !important;
+    }
+    .importance-section .importance-content h2::before{
+        left:15px;
+    }
+    .brand-heading{
+        font-size:33px !important;
+        margin-top:22px;
+    }
+
+
+    /* about-us page start */
+
+
+    .why-cashpost{
+        padding: 22px 0 170px 0;
+    }
+    .better-alternative-section {
+        padding: 90px 0;
+    }
+
+    /* login page start   */
+
+    .sign-up-section .content h3{
+        padding:0 16px !important;
+    }
+
+     /* contact-us-section  start */
+
+     .contact-us-section {
+         padding:48px 0 !important;
+     }
+     .sign-up-section .form-side{
+        padding:0 100px;
+    }
+    .sign-up-section .form-card{
+        padding:0 100px;
+    }
+    .sign-up-section.step-3 .previous-step, .sign-up-section.step-2 .previous-step{
+        left: -140px;
+    }
+    .sign-up-section .card .text-24{
+        font-size:17px !important;
+    }
+
+    /* find job page start */
+
+    .find-job-detail{
+        padding-top:22px !important;
+    }
+    .find-job-detail .my-border:before{
+        top:-22px;   
+    }
+    .find-job-section .aiz-user-panel .find-jobs-cards .job-card .card-body .card-main .list-title {
+        height: 72px;
+    }
+    /* .find-job-section .aiz-user-panel .find-jobs-cards .job-card .card-body .card-main {
+        height: 130px;
+    } */
+
+    /* profile page start */
+
+    .profile-section .profile-details .interested-in .skin-detail{
+        flex: 0 0 20%;
+        max-width: 20%;
+        margin-bottom:20px;
+        text-align:left;
+    }
+    .find-job-section .find-influencer .aiz-pagination {
+        margin-top: 0px;
+    }
+
+    /* find-influencer page start */
+    .find-job-section .aiz-user-panel .filter_row .filter_btn{
+        left: 220px;
+        top: -47PX;
+        display: inline-block;
+        padding: 6px 10px;
+        background-color: #A1BC31;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .find-job-section .aiz-user-panel .filter_row .filter_close{
+        right: 20px;
+        top: 0px;
+        display: inline-block;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .find-job-section .aiz-user-panel .filter-job.col-lg-3{
+        position: absolute;
+        left: -120%;
+        top: 0;
+        transition: all 0.2s ease;
+        z-index: 999;
+        background: #fff;
+        border-radius: 10px;
+        box-sizing: border-box !important;
+        box-shadow: 5px 10px 20px #697F961A;
+    }
+    .find-job-section .aiz-user-panel .filter-job.col-lg-3.show{
+        position: fixed;
+        left: 0;
+        top: 0;
+        transition: all 0.2s ease;
+        background: #fff;
+        border-radius: 10px;
+        padding: 36px 18px;
+        box-sizing: border-box !important;
+        box-shadow: 5px 10px 20px #697F961A;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        z-index: 999999;
+    }
+    .aiz-footer .aiz-footer-widget .newsletter .input-group-append{
+        top: 2px;
+    }        
+
+}
+
+@media(max-width:767px){
+
+    .btn-green, .btn-green-lg{
+        font-size:12px !important;
+    }
+    h1, .h1 {
+        font-size: 24px !important;
+    }
+    .brand-heading{
+        font-size: 24px !important;
+        margin-top:16px;
+    }
+    .aiz-header .aiz-navbar .menu .my-navbar{
+        position:absolute;
+        width:100%;
+        top:90px;
+        text-align:center;
+        background-color:rgb(0,0,0,0.9);
+        left:0;
+    }
+    .fs-56 {
+        font: normal normal 800 24px/38px Manrope;
+    }
+    .banner .banner-content .section-subtitle span {
+        font-size: 12px !important;
+    }
+    .trusted-text{
+        text-align:center;
+        font-size:16px !important;
+    }
+    .aiz-header-other .aiz-navbar .menu .my-navbar .navbar-nav .nav-item .nav-link{
+        color:#fff !important;
+    }
+    
+    /* about-us page start */
+    
+    .why-cashpost {
+        padding: 22px 0 120px 0;
+        margin-bottom:240px;
+    }
+    .why-cashpost .design-1 {
+        left: -20px;
+    }
+    .better-alternative-section {
+        padding: 60px 0;
+    }
+    .who-cashpost-section,.waiting-signup-section{
+        padding:32px 0;
+    }
+
+    /* brand page start */
+
+    .social-engagement{
+        padding:48px 0;
+    }
+    .banner.banner-cloned .banner-image{
+        padding-left:15px;
+    }    
+
+
+    /* terms-and-condition-section start page */
+    .terms-and-condition-section{
+        padding:48px 0;
+    }
+    .terms-and-condition-section .para-2, .terms-and-condition-section .para-3{
+        margin-top:48px;
+    }
+    .sign-up-section .form-side{
+        padding:0 50px;
+    }
+    .sign-up-section .form-card{
+        padding:0 10px;
+    }
+    .sign-up-section.step-3 .previous-step, .sign-up-section.step-2 .previous-step{
+        left:-90px;
+    }
+
+
+    /* dashboard section start */
+
+    .aiz-user-sidenav-wrap .cards-group{
+        position:static !important;
+        padding:48px 0;
+    }
+    .aiz-user-sidenav{
+        margin-bottom:0;
+    }
+    .aiz-user-sidenav .dashboard-heading {
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    .compaign-section{
+        padding:2rem 0 !important;
+    }
+    .aiz-user-panel .aiz-titlebar .campaign-heading {
+        padding-bottom: 22px;
+    }
+
+    /* find-job-section */
+    .find-job-section .aiz-user-panel .find-jobs-cards .card-body .list-footer h6:first-child {
+        margin-right: 16px;
+    }
+    .find-job-section .aiz-user-panel .filter-job .sort-job {
+        padding: 0 15px;
+    }
+
+     /* profile page start */
+
+     .profile-section .profile-details .interested-in .skin-detail{
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    /* compaign page start */
+
+    .my-campaigns-status .aiz-pagination.aiz-pagination-right{
+        margin-top:26px;
+    }
+    .my-campaigns-status .aiz-user-sidenav-wrap .aiz-side-nav-list li {
+        margin-right: 16px;
+    }
+
+    /* find influencer page start  */
+
+    .find-job-section .find-influencer .find-jobs-cards .find-jobs-cards-main .card{
+      height:100%;
+    }
+    .influencer-detail-page .main-influencer .influencer-main-card .media-body .interested-fields .green-type-btn{
+        font-size:9px;
+    }
+
+    /* bank detail page start */
+    .bank-detail-section .bank-detail .card-header .heading, .bank-detail-section .bank-detail .powred-by{
+        font-size:16px !important;
+    }
+
+}
+
+@media(max-width:575px){
+    .fs-56 {
+        font: normal normal 800 30px/40px Manrope;
+    }
+    .banner-image{
+        position:relative;
+    }
+    .modal-content .modal-body{
+        max-height: 70vh;
+    }
+    .modal-footer>*{
+        margin: 0;
+    }
+    .banner{
+        padding-bottom:0 !important;
+        height:auto;
+    }
+    .btn-green-lg{
+        padding: 10px 20px !important;
+    }
+    .banner .banner-content .know-more {
+        margin-top: 8px !important;
+    }
+    .faq-section{
+        padding:32px 0 !important;
+    }
+    .my-calender{
+        top: 34px;
+    }
+    .aiz-front-widget .title{
+        margin-bottom:8px;
+    }
+    .testimonial-heading{
+        font-size:22px;
+    }
+    .banner.banner-cloned{
+        padding-bottom:0 !important;
+        padding-top:0 !important;
+    }
+    
+    /* about-us page start */
+
+    .why-cashpost {
+        padding: 22px 0 100px 0;
+        margin-bottom:150px;
+    }
+    .why-cashpost .why-cashpost-card{
+        bottom: -50px;
+    }
+    .power-influencer-section .design-2 {
+        top: -75px;
+        right: 0;
+        width: 40%;
+    }
+    .better-alternative-section {
+        padding: 22px 0;
+    }
+    .why-cashpost .design-1 {
+        left: -10px;
+    }
+    .power-influencer-section .power-content .content-heading {
+        margin-right: 0;
+    }
+
+
+     /* contact-us-section  start */
+
+     .contact-us-section {
+        padding:28px 0 !important;
+    }
+    .sign-up-section .form-side{
+        padding:0;
+    }
+    .sign-up-section .form-card{
+        padding:0;
+    }
+    .sign-up-section.step-3 .previous-step, .sign-up-section.step-2 .previous-step{
+        left:-32px;
+        top:-45px;
+    }
+    .compaign-section{
+        padding:1rem 0 !important;
+    }
+    .profile-section .profile-details .interested-in .skin-detail span{
+        font-size:12px;
+    }
+
+    /* compaign page start */
+
+    .my-campaigns-status .bootstrap-select .dropdown-toggle{
+        margin-left:-24px;
+    }
+    .coustom-select.compaign-select {
+        background: url(../../../../../public/uploads/all/chevron-down-grey.svg) 68%/19px no-repeat !important;
+    }
+    .my-campaigns-status .aiz-pagination.aiz-pagination-right{
+        margin-top:36px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    
+    .my-campaigns-status .aiz-pagination.aiz-pagination-right .pagination{
+        margin-top:16px;
+    }
+    .my-campaigns-status .aiz-user-sidenav-wrap .aiz-side-nav-list li {
+        margin-right: 10px;
+    }
+    /* find influencer page start */
+    
+
+    .find-job-section .find-influencer .find-jobs-cards .find-jobs-cards-main
+    {
+        padding:0;
+    }
+
+
+    /*influencer detail page*/
+
+
+    .influencer-detail-page .hire-influencer-cards .hire-influencer-card-main
+    {
+        padding:0;
+    }
+    .modal-content .modal-footer,.modal-content .modal-body, .modal-content .modal-header{
+        padding: 10px 14px;
+    }
+
+}
+
+
+/* custom responsive */
+@media(max-width:360px){
+    .testimonial-section .testimonial-card .col-lg-8.col-6{
+        max-width:100% !important;
+        flex: 0 0 100%;
+    }
+    .testimonial-section .testimonial-card .slick-slide img{
+        padding-left: 22px;
+    }
+     /* profile page start */
+
+     .profile-section .profile-details .interested-in .skin-detail{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+      /* compaign page start */
+
+      .my-campaigns-status .bootstrap-select .dropdown-toggle{
+        margin-left:-4px;
+    }
+    .coustom-select.compaign-select {
+        background: url(../../../../../public/uploads/all/chevron-down-grey.svg) 68%/19px no-repeat !important;
+    }
+
+
+    /* find influencer page start */
+
+    .find-job-section .find-influencer .find-jobs-cards .card-body .social-img-list ul li a {
+        margin-right: 8px;
+    }
+
+
+}

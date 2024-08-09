@@ -1,0 +1,1 @@
+<?php /**PATH /www/wwwroot/public_html/cashpost.visionvivante.com/resources/views/errors/500.blade.php ENDPATH**/ ?>

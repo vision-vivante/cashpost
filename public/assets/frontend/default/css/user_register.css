@@ -1,0 +1,48 @@
+/*your custom css goes here*/
+
+/* font-family */
+
+body{
+    font-family:'Manrope', sans-serif !important;
+}
+ul.list-inline.social.colored.text-center{
+    display: inline-flex;
+}
+ul.list-inline.social.colored.text-center li {
+    margin-left: 12px;
+}
+#reg-form fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
+}
+#reg-form fieldset:not(:first-of-type) {
+  display: none
+}
+#reg-form .previous-step, .next-step {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right
+}
+label.error {
+    color: #eb1515;
+}
+.text {
+  color: #2F8D46;
+  font-weight: normal
+}
+#facebook , #twitter ,#google, #linkedin{
+    display: none;
+}
